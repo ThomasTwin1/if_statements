@@ -1,0 +1,35 @@
+# If Statements checks the conditions of your code to be true or false.
+if 1 > -2:
+    print("one is greater than two")
+# 1 is greater than 2 in this example so "one is greater than two" is printed
+
+if 1 > 2:
+    print("one is greater than two")
+# This statement is false and therefore does not print. Notice the false statement is underlined yellow.
+# Let's add an else statement to check whether the expression is true or false
+
+if 1 > 2:
+    print("one is greater than two")
+else:
+    print("one is not greater than two")
+# In this example 1 is not greater than 2 therefore the first print statement is underlined yellow and the else statement is printed.
+
+# You can also check an expression directly simply by typing it and running it in the console.
+print(1 > 2) # Output: False
+# In this case python checks the code directly to be true or false.
+
+
+# It's loop time!
+# Let's add an if statement to a loop
+fruits = ['apple','banana','peach','grape']
+for fruit in fruits:
+    if fruit == 'grape':
+        print("It's peanut butter jelly time!")
+    else:
+        print(fruit.title())
+# Output:
+# Apple
+# Banana
+# Peach
+# It's peanut butter jelly time!
+# This loop prints "It's peanut butter jelly time!" when grape is the value in the fruit variable.
