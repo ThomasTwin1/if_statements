@@ -1,0 +1,14 @@
+# Checking for Equality
+# Now that we know how to add if/else statements let's look at checking expressions for equality
+pizza = "pepperoni"
+
+# Check if the value of pizza equals "pepperoni"
+print(pizza == "pepperoni")  # Output: True
+# If a variable is assigned a value, the variable holds that value and is considered equal to it when compared using the == operator.
+
+# You can also check fo inequality:
+pizza = "pepperoni"
+
+# Check if the value of pizza not equal to "pepperoni"
+print(pizza != "pepperoni")  # Output: False
+# Since pizza is equal to pepperoni this statement is false
