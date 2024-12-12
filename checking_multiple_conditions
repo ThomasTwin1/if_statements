@@ -1,0 +1,22 @@
+# Check multiple conditions
+# Use the keywords "and" or "or" to check multiple conditions 
+# And Keyword:
+number_one = 1
+number_two = 2
+print(number_one > 0 and number_two > 0) # Output: True
+print(number_one > 5 and number_two > 5) # Output: False
+print(number_one > 0 and number_two > 5) # Output: False
+# Both conditions must be true for the statement to be true
+
+# Or keyword:
+number_one = 1
+number_two = 2
+print(number_one > 0 or number_two > 0) # Output: True
+print(number_one > 5 or number_two > 5) # Output: False
+print(number_one > 0 or number_two > 5) # Output: True
+# Only one condition needs to be true for the statement to be true
+
+# You can add parentheses around the expression to increase readability, but it's not required: 
+number_one = 1
+number_two = 2
+print((number_one > 0) or (number_two > 0)) # Output: True
