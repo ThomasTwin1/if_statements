@@ -1,0 +1,7 @@
+# Voting Age Example
+age = 19
+if age <= 18:
+    print("Sorry you can't vote.")
+else:
+    print("You are old enough to vote")
+    print("Have you registered to vote yet?")
