@@ -1,0 +1,26 @@
+# Alien Colors #1 Pass
+alien_color = ['green','yellow','red']
+if 'green' in alien_color:
+    print("Player earned 5 points")
+
+# Alien Colors #1 Failed
+alien_color = ['yellow', 'red']  # 'green' is removed from the list
+if 'green' in alien_color:
+    print("Player earned 5 points")
+# This will not print anything because 'green' is not in alien_color.
+
+# Alien Colors #2 if statement passed
+alien_color = ['green', 'yellow', 'red']
+if 'green' in alien_color:
+    print("player earned 5 points")
+else:
+    print("Player earned 10 points")
+# Runs the if statement
+
+# Alien Colors #2 else statement passed
+alien_color = ['yellow', 'red']
+if 'green' in alien_color:
+    print("player earned 5 points")
+else:
+    print("Player earned 10 points")
+# Runs the else statement
