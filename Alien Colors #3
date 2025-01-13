@@ -1,0 +1,27 @@
+# Alien Colors #3 Make player earn 5 points
+alien_color = ['green', 'yellow', 'red']
+if 'green' in alien_color:
+    print("Player earned 5 points")
+elif 'yellow' in alien_color:
+    print("Player earned 10 points")
+else:
+    print("Player earned 15 points")
+
+# Alien Colors #3 Make player earn 10 points
+alien_color = ['yellow', 'red']
+if 'green' in alien_color:
+    print("Player earned 5 points")
+elif 'yellow' in alien_color:
+    print("Player earned 10 points")
+else:
+    print("Player earned 15 points")
+
+# Alien Colors #3 Make player earn 15 points
+alien_color = ['red']
+if 'green' in alien_color:
+    print("Player earned 5 points")
+elif 'yellow' in alien_color:
+    print("Player earned 10 points")
+else:
+    print("Player earned 15 points")
+
