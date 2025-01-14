@@ -1,0 +1,26 @@
+# Favorite Fruit If Statements
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+if 'Apple' in favorite_fruits:
+    print("You really like apples!")
+
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+if 'Banana' in favorite_fruits:
+    print("You really like bananas!")
+
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+if 'Orange' in favorite_fruits:
+    print("You really like oranges!")
+    
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+if 'Blueberries' in favorite_fruits:
+    print("You really like blueberries!")
+    
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+if 'Strawberries' in favorite_fruits:
+    print("You really like strawberries!")
+
+# Favorite Fruits Loop
+favorite_fruits = ['Apple', 'Banana', 'Orange', 'Blueberries', 'Strawberries']
+
+for fruit in favorite_fruits:
+    print(f"You really like {fruit.lower()}!")
